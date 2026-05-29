@@ -1,0 +1,78 @@
+services:
+  postgres:
+    container_name: incubare-data-agent-postgres
+    hostname: incubare-data-agent-postgres
+    image: postgres:16
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:?error}
+      POSTGRES_USER: ${POSTGRES_USER:?error}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?error}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - incubare-data-agent_network
+    restart: unless-stopped
+
+  backend:
+    container_name: incubare-data-agent-backend
+    hostname: incubare-data-agent-backend
+    image: ${BACKEND_DOCKER_IMAGE:?error}:${BACKEND_DOCKER_IMAGE_TAG:?error}
+    env_file: .env
+    environment:
+      APP_DB_HOST: postgres
+      APP_DB_PORT: 5432
+      APP_DB_NAME: ${POSTGRES_DB:?error}
+      APP_DB_USER: ${POSTGRES_USER:?error}
+      APP_DB_PASSWORD: ${POSTGRES_PASSWORD:?error}
+    volumes:
+      - uploads:/tmp/data_agent_uploads
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8000/api/health >/dev/null || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 20
+    networks:
+      - incubare-data-agent_network
+      - proxy
+    restart: unless-stopped
+
+  frontend:
+    container_name: incubare-data-agent-frontend
+    hostname: incubare-data-agent-frontend
+    image: ${FRONTEND_DOCKER_IMAGE:?error}:${FRONTEND_DOCKER_IMAGE_TAG:?error}
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost/ >/dev/null || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.services.incubare-data-agent-frontend.loadbalancer.server.port=80"
+      - "traefik.http.routers.incubare-data-agent-frontend.rule=Host(`${FRONTEND_HOST:?error}`)"
+      - "traefik.http.routers.incubare-data-agent-frontend.tls=true"
+    networks:
+      - proxy
+    restart: unless-stopped
+
+volumes:
+  uploads:
+  postgres_data:
+
+networks:
+  proxy:
+    name: proxy
+    external: true
+  incubare-data-agent_network:
+    name: incubare-data-agent_network
+    external: false

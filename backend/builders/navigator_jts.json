@@ -1,0 +1,5742 @@
+[
+    {
+        "nID": 1,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nparentid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname_ru"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname_en"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndepartmentid"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndatapointid"
+            },
+            {
+                "nOrd": 7,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sshortname_ru"
+            },
+            {
+                "nOrd": 8,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sshortname_en"
+            },
+            {
+                "nOrd": 9,
+                "sType": "date",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "dtdatefrom"
+            },
+            {
+                "nOrd": 10,
+                "sType": "date",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "dtdateto"
+            },
+            {
+                "nOrd": 11,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "norder"
+            },
+            {
+                "nOrd": 12,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": "3",
+                "sColumnName": "ndisplaystateid"
+            }
+        ]
+    },
+    {
+        "nID": 3,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsubjectareaid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nindicatorid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "npermissionid"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "ismainsa"
+            }
+        ]
+    },
+    {
+        "nID": 4,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "id"
+            },
+            {
+                "nOrd": 2,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "name"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "description"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "code"
+            },
+            {
+                "nOrd": 5,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "full_name"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "measure_id"
+            },
+            {
+                "nOrd": 7,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dyn_type"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "pok_period"
+            },
+            {
+                "nOrd": 9,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "variance"
+            },
+            {
+                "nOrd": 10,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": "1",
+                "sColumnName": "isavailable"
+            },
+            {
+                "nOrd": 11,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "fact_name"
+            },
+            {
+                "nOrd": 12,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "name_en"
+            },
+            {
+                "nOrd": 13,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "description_en"
+            },
+            {
+                "nOrd": 14,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "full_name_en"
+            },
+            {
+                "nOrd": 15,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "fact_name_en"
+            },
+            {
+                "nOrd": 16,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "kpi_typeclassification"
+            },
+            {
+                "nOrd": 17,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "kpi_typeclassification2"
+            },
+            {
+                "nOrd": 18,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "measererateid"
+            },
+            {
+                "nOrd": 19,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "measuredeltaid"
+            },
+            {
+                "nOrd": 20,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "planrate_type"
+            },
+            {
+                "nOrd": 22,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "subjectareaid"
+            },
+            {
+                "nOrd": 23,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "externaldashboardid"
+            },
+            {
+                "nOrd": 24,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "axislist"
+            },
+            {
+                "nOrd": 25,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "responsible"
+            },
+            {
+                "nOrd": 26,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "refreshrate"
+            },
+            {
+                "nOrd": 27,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "2",
+                "sColumnName": "nprecision"
+            },
+            {
+                "nOrd": 28,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "ispartition"
+            },
+            {
+                "nOrd": 30,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nwarehouseid"
+            },
+            {
+                "nOrd": 31,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isneedcalcforecastversion"
+            },
+            {
+                "nOrd": 32,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtdeleted"
+            }
+        ]
+    },
+    {
+        "nID": 5,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "id"
+            },
+            {
+                "nOrd": 2,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "script"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "kpi_id"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "description"
+            },
+            {
+                "nOrd": 5,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "for_xml"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "convert_to_rs"
+            },
+            {
+                "nOrd": 7,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "is_generate"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "source_id"
+            },
+            {
+                "nOrd": 9,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "lpriority"
+            },
+            {
+                "nOrd": 10,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isavailable"
+            },
+            {
+                "nOrd": 11,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isformula"
+            },
+            {
+                "nOrd": 12,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nloadclustertypeid"
+            }
+        ]
+    },
+    {
+        "nID": 6,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nindicatorid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nprocessid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nord"
+            },
+            {
+                "nOrd": 5,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": "true",
+                "sColumnName": "isactive"
+            }
+        ]
+    },
+    {
+        "nID": 7,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nindicatorprocessid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nparamid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "svalue"
+            }
+        ]
+    },
+    {
+        "nID": 8,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nindicatorprocessid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nclusterid"
+            }
+        ]
+    },
+    {
+        "nID": 9,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsubjectareaid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nuserdictionaryid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "npermissionid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "ismainsa"
+            }
+        ]
+    },
+    {
+        "nID": 10,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdescription"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "1",
+                "sColumnName": "ntype"
+            },
+            {
+                "nOrd": 5,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sscript"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isactive"
+            },
+            {
+                "nOrd": 7,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtdeleted"
+            },
+            {
+                "nOrd": 8,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "issystem"
+            },
+            {
+                "nOrd": 9,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isaiused"
+            }
+        ]
+    },
+    {
+        "nID": 11,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsubjectareaid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nusersourceid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "npermissionid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "ismainsa"
+            }
+        ]
+    },
+    {
+        "nID": 12,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "stable"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdescription"
+            },
+            {
+                "nOrd": 5,
+                "sType": "xml",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "xheader"
+            },
+            {
+                "nOrd": 6,
+                "sType": "xml",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "xstructure"
+            },
+            {
+                "nOrd": 7,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtlastload"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "1",
+                "sColumnName": "ntype"
+            },
+            {
+                "nOrd": 9,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isshowforvisualization"
+            },
+            {
+                "nOrd": 10,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtdeleted"
+            },
+            {
+                "nOrd": 11,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": "false",
+                "sColumnName": "isforeigntable"
+            },
+            {
+                "nOrd": 12,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nuserk"
+            },
+            {
+                "nOrd": 13,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtapprovek"
+            },
+            {
+                "nOrd": 14,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": "false",
+                "sColumnName": "isruntransformationafterload"
+            }
+        ]
+    },
+    {
+        "nID": 13,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nusersourceid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdescription"
+            },
+            {
+                "nOrd": 6,
+                "sType": "json",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "jsettings"
+            }
+        ]
+    },
+    {
+        "nID": 14,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nindicatorprocessid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nclusterid"
+            }
+        ]
+    },
+    {
+        "nID": 15,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndashboardid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nparentdashboardid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndashboardtypeid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndashboardposition"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndynamictypeid"
+            },
+            {
+                "nOrd": 7,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdefaultparamname"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": "2",
+                "sColumnName": "nobjecttypeid"
+            },
+            {
+                "nOrd": 9,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "iseditable"
+            },
+            {
+                "nOrd": 10,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ispushpermissionrequired"
+            },
+            {
+                "nOrd": 12,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sinsiderdesc"
+            },
+            {
+                "nOrd": 14,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isusecurrentdate"
+            },
+            {
+                "nOrd": 15,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isshowforecastlastupdate"
+            },
+            {
+                "nOrd": 16,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nreportid"
+            },
+            {
+                "nOrd": 17,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": "0",
+                "sColumnName": "ninsidermask"
+            },
+            {
+                "nOrd": 18,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdescription"
+            },
+            {
+                "nOrd": 19,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndisplaystateid"
+            },
+            {
+                "nOrd": 20,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sdashboardtitle_ru"
+            },
+            {
+                "nOrd": 21,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdashboardtitle_en"
+            },
+            {
+                "nOrd": 22,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtdeleted"
+            },
+            {
+                "nOrd": 23,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": "1",
+                "sColumnName": "ntargetdbplatformtype"
+            },
+            {
+                "nOrd": 24,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isaienabled"
+            },
+            {
+                "nOrd": 25,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "staglist"
+            }
+        ]
+    },
+    {
+        "nID": 16,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nparentid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname_ru"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname_en"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "1",
+                "sColumnName": "isdefault"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nobjectid"
+            },
+            {
+                "nOrd": 7,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": "99",
+                "sColumnName": "nmenuitemposition"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": "3",
+                "sColumnName": "ndisplaystateid"
+            },
+            {
+                "nOrd": 9,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "slogo"
+            },
+            {
+                "nOrd": 10,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "slink"
+            },
+            {
+                "nOrd": 11,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isservice"
+            },
+            {
+                "nOrd": 12,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "3",
+                "sColumnName": "ndisplayenvironmentid"
+            },
+            {
+                "nOrd": 13,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isfixed"
+            },
+            {
+                "nOrd": 14,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "siconid"
+            },
+            {
+                "nOrd": 15,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": "7",
+                "sColumnName": "ndisplayplatformid"
+            },
+            {
+                "nOrd": 16,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": "3",
+                "sColumnName": "ndisplaydbplatformid"
+            },
+            {
+                "nOrd": 17,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nordarmdemooverview"
+            }
+        ]
+    },
+    {
+        "nID": 17,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nparentid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndashboardid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname_ru"
+            },
+            {
+                "nOrd": 5,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname_en"
+            },
+            {
+                "nOrd": 6,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdepartmentname_ru"
+            },
+            {
+                "nOrd": 7,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdepartmentname_en"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nmeasureid"
+            },
+            {
+                "nOrd": 9,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ntype"
+            },
+            {
+                "nOrd": 10,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "1",
+                "sColumnName": "nshrinktype"
+            },
+            {
+                "nOrd": 11,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nwidth"
+            },
+            {
+                "nOrd": 12,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nheight"
+            },
+            {
+                "nOrd": 13,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "norder"
+            },
+            {
+                "nOrd": 14,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "stitle_ru"
+            },
+            {
+                "nOrd": 15,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "stitle_en"
+            },
+            {
+                "nOrd": 16,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ishidebreadcrumbs"
+            },
+            {
+                "nOrd": 17,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isdisablepadding"
+            },
+            {
+                "nOrd": 18,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "spropertiessql"
+            },
+            {
+                "nOrd": 19,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "1",
+                "sColumnName": "nlayouttype"
+            },
+            {
+                "nOrd": 20,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isstretchlastwidgettotheendofscreen"
+            },
+            {
+                "nOrd": 21,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isstretchallwidgetstothesidesofscreen"
+            },
+            {
+                "nOrd": 22,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scomment"
+            },
+            {
+                "nOrd": 23,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isasyncloading"
+            },
+            {
+                "nOrd": 24,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "iscached"
+            },
+            {
+                "nOrd": 25,
+                "sType": "interval",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scachelivetime"
+            },
+            {
+                "nOrd": 26,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isaienabled"
+            },
+            {
+                "nOrd": 27,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "staglist"
+            },
+            {
+                "nOrd": 28,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "naiscreenwidgetid"
+            },
+            {
+                "nOrd": 30,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": "false",
+                "sColumnName": "isexportpdf"
+            },
+            {
+                "nOrd": 31,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nexportmarking"
+            }
+        ]
+    },
+    {
+        "nID": 18,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nscreenid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname_ru"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname_en"
+            },
+            {
+                "nOrd": 5,
+                "sType": "xml",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "xactions"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nord"
+            },
+            {
+                "nOrd": 7,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ishidetitle"
+            },
+            {
+                "nOrd": 8,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "spropertiessql"
+            }
+        ]
+    },
+    {
+        "nID": 19,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nparentid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nscreenid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nwidgettypeid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname_ru"
+            },
+            {
+                "nOrd": 6,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname_en"
+            },
+            {
+                "nOrd": 7,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nxcoord"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nycoord"
+            },
+            {
+                "nOrd": 9,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nwidth"
+            },
+            {
+                "nOrd": 10,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nheight"
+            },
+            {
+                "nOrd": 11,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "norder"
+            },
+            {
+                "nOrd": 12,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ishidden"
+            },
+            {
+                "nOrd": 13,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "1",
+                "sColumnName": "nviewtype"
+            },
+            {
+                "nOrd": 14,
+                "sType": "xml",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "xparams"
+            },
+            {
+                "nOrd": 15,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isisolated"
+            },
+            {
+                "nOrd": 16,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nsectionid"
+            },
+            {
+                "nOrd": 17,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nsourcetypeid"
+            },
+            {
+                "nOrd": 18,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ntitlelinesnumberfixed"
+            },
+            {
+                "nOrd": 19,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ntitlelinesnumbermax"
+            },
+            {
+                "nOrd": 20,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ishidewidgethead"
+            },
+            {
+                "nOrd": 21,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nbackgroundtype"
+            },
+            {
+                "nOrd": 22,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isstorehiddenstate"
+            },
+            {
+                "nOrd": 23,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "islandscapeavailable"
+            },
+            {
+                "nOrd": 24,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scomment"
+            },
+            {
+                "nOrd": 25,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nrefreshtimeout"
+            },
+            {
+                "nOrd": 26,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isfullscreenable"
+            },
+            {
+                "nOrd": 27,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "snodatatext"
+            },
+            {
+                "nOrd": 28,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sgeneratordatasetid"
+            },
+            {
+                "nOrd": 29,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sgeneratorwidgetsfieldid"
+            },
+            {
+                "nOrd": 30,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sgeneratorsectionsfieldid"
+            },
+            {
+                "nOrd": 31,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "iscached"
+            },
+            {
+                "nOrd": 32,
+                "sType": "interval",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scachelivetime"
+            },
+            {
+                "nOrd": 33,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isaienabled"
+            },
+            {
+                "nOrd": 34,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isheightforcontent"
+            },
+            {
+                "nOrd": 35,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nmaxheight"
+            },
+            {
+                "nOrd": 36,
+                "sType": "json",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "jparams"
+            },
+            {
+                "nOrd": 37,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isexport"
+            },
+            {
+                "nOrd": 38,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nexportmark"
+            }
+        ]
+    },
+    {
+        "nID": 20,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "slabel"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nscreenid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nscreenwidgetid"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nbasescreenwidgetid"
+            },
+            {
+                "nOrd": 7,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isonline"
+            },
+            {
+                "nOrd": 8,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isscreenonly"
+            },
+            {
+                "nOrd": 9,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "fwidth"
+            },
+            {
+                "nOrd": 10,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "1",
+                "sColumnName": "naligntype"
+            },
+            {
+                "nOrd": 11,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdefaultvalue"
+            },
+            {
+                "nOrd": 12,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdataselect"
+            },
+            {
+                "nOrd": 13,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "fprevpad"
+            },
+            {
+                "nOrd": 14,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nord"
+            },
+            {
+                "nOrd": 15,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nstyle"
+            },
+            {
+                "nOrd": 16,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isdisabled"
+            },
+            {
+                "nOrd": 17,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "senabledhexcolor"
+            },
+            {
+                "nOrd": 18,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdisabledhexcolor"
+            },
+            {
+                "nOrd": 19,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nactiontype"
+            },
+            {
+                "nOrd": 20,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nrefobjectid"
+            },
+            {
+                "nOrd": 21,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sgroup"
+            },
+            {
+                "nOrd": 22,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ishideaftercalc"
+            },
+            {
+                "nOrd": 23,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isshowsearchstring"
+            },
+            {
+                "nOrd": 24,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scontrolhint"
+            },
+            {
+                "nOrd": 25,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "iscollapseselecteddescendant"
+            },
+            {
+                "nOrd": 26,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ishidedisabled"
+            },
+            {
+                "nOrd": 27,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ncollapsechoiceover"
+            },
+            {
+                "nOrd": 28,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ishideonclient"
+            },
+            {
+                "nOrd": 29,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nbagecontrolobjectid"
+            },
+            {
+                "nOrd": 30,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nicontype"
+            },
+            {
+                "nOrd": 31,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ispriority"
+            },
+            {
+                "nOrd": 32,
+                "sType": "xml",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "xextendedproperties"
+            },
+            {
+                "nOrd": 33,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scomment"
+            },
+            {
+                "nOrd": 34,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ishidelabel"
+            },
+            {
+                "nOrd": 35,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nobjecttypeid"
+            },
+            {
+                "nOrd": 36,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "siconid"
+            },
+            {
+                "nOrd": 37,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ncachetype"
+            },
+            {
+                "nOrd": 38,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "shash"
+            },
+            {
+                "nOrd": 47,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ncachetimeout"
+            },
+            {
+                "nOrd": 48,
+                "sType": "xml",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "xcontrol"
+            },
+            {
+                "nOrd": 49,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nviewtype"
+            },
+            {
+                "nOrd": 50,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "scode"
+            },
+            {
+                "nOrd": 51,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isaienabled"
+            },
+            {
+                "nOrd": 52,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "staglist"
+            },
+            {
+                "nOrd": 53,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nparentcontrolobjectid"
+            }
+        ]
+    },
+    {
+        "nID": 21,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nscreenwidgetid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "napptypeid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 5,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "svalue"
+            }
+        ]
+    },
+    {
+        "nID": 22,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nbasescreenwidgetid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nscreenwidgetid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nrow"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ncolumn"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nwidthpx"
+            },
+            {
+                "nOrd": 7,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nheightpx"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nwidthpercent"
+            },
+            {
+                "nOrd": 9,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nheightpercent"
+            },
+            {
+                "nOrd": 10,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ncolumnspan"
+            },
+            {
+                "nOrd": 11,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nrowspan"
+            }
+        ]
+    },
+    {
+        "nID": 23,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ncontrolobjectid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nparentcontrolobjectid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            }
+        ]
+    },
+    {
+        "nID": 24,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nscreenwidgetid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scode"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "svalue"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ntype"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isactive"
+            }
+        ]
+    },
+    {
+        "nID": 25,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ncontrolobjectid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nscreenwidgetid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            }
+        ]
+    },
+    {
+        "nID": 26,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ncontrolobjectid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ssubject"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sbody"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "srecipientlist"
+            }
+        ]
+    },
+    {
+        "nID": 27,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nlinkid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nlinktypeid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nlinkedobjectid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nresourceid"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": "6",
+                "sColumnName": "nobjecttypeid"
+            },
+            {
+                "nOrd": 7,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndisplaystateid"
+            },
+            {
+                "nOrd": 8,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "slinktitle_ru"
+            },
+            {
+                "nOrd": 9,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "slinktitle_en"
+            }
+        ]
+    },
+    {
+        "nID": 28,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndashboardid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndomainid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndomainposition"
+            }
+        ]
+    },
+    {
+        "nID": 29,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndashboardid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndomainid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ncardid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nparentcardid"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ncardposition"
+            },
+            {
+                "nOrd": 7,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndynamictypeid"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndepartmentid"
+            },
+            {
+                "nOrd": 9,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndatapointid"
+            },
+            {
+                "nOrd": 10,
+                "sType": "date",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtdatefrom"
+            },
+            {
+                "nOrd": 11,
+                "sType": "date",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtdateto"
+            },
+            {
+                "nOrd": 12,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nredvalue"
+            },
+            {
+                "nOrd": 13,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ngreenvalue"
+            },
+            {
+                "nOrd": 14,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scustomname"
+            }
+        ]
+    },
+    {
+        "nID": 30,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndashboardid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndomainid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nlinkid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nlinkposition"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nselecteddashboardid"
+            }
+        ]
+    },
+    {
+        "nID": 31,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "npositionid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndashboardid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndomainid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ncardid"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nparentcardid"
+            },
+            {
+                "nOrd": 7,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ncardorder"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndynamictypeid"
+            },
+            {
+                "nOrd": 9,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndepartmentid"
+            },
+            {
+                "nOrd": 10,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndatapointid"
+            },
+            {
+                "nOrd": 11,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nredvalue"
+            },
+            {
+                "nOrd": 12,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ngreenvalue"
+            },
+            {
+                "nOrd": 13,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nactiontypeid"
+            },
+            {
+                "nOrd": 14,
+                "sType": "timestamp",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "dtactiondate"
+            },
+            {
+                "nOrd": 15,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nuserid"
+            }
+        ]
+    },
+    {
+        "nID": 32,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "norganizationpositionid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndashboardid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nchildorganizationpositionid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "norder"
+            }
+        ]
+    },
+    {
+        "nID": 33,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ncontrolobjectid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nparentcontrolobjectid"
+            }
+        ]
+    },
+    {
+        "nID": 34,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndomainid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": "7",
+                "sColumnName": "nobjecttypeid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndisplaystateid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sdomaintitle_ru"
+            },
+            {
+                "nOrd": 6,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdomaintitle_en"
+            }
+        ]
+    },
+    {
+        "nID": 35,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndashboardid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": "'Вопрос по дешборду \"%DashName%\"'::character varying",
+                "sColumnName": "ssubject"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": "'Здесь Вы можете адресовать свой вопрос по дешборду, предварительно указав область карточек и саму карточку'::character varying",
+                "sColumnName": "sbody"
+            }
+        ]
+    },
+    {
+        "nID": 36,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndashboardemailid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "srecipient"
+            }
+        ]
+    },
+    {
+        "nID": 37,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nscreenid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 5,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scomment"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nord"
+            },
+            {
+                "nOrd": 7,
+                "sType": "xml",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "xdataset"
+            }
+        ]
+    },
+    {
+        "nID": 38,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ncontrolobjectid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scode"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "svalue"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "1",
+                "sColumnName": "ntype"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isactive"
+            }
+        ]
+    },
+    {
+        "nID": 39,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 3,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtdeleted"
+            }
+        ]
+    },
+    {
+        "nID": 40,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nreportid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "svalue"
+            },
+            {
+                "nOrd": 5,
+                "sType": "uuid",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "uuid"
+            }
+        ]
+    },
+    {
+        "nID": 41,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nreportid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsettingsid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "svalue"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            }
+        ]
+    },
+    {
+        "nID": 42,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nreportid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 4,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isactive"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nord"
+            }
+        ]
+    },
+    {
+        "nID": 43,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nheaderid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nparentid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndatacolumnid"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nord"
+            },
+            {
+                "nOrd": 7,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "saliasname"
+            }
+        ]
+    },
+    {
+        "nID": 44,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nheaderid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ncolumnid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsettingsid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "svalue"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            }
+        ]
+    },
+    {
+        "nID": 45,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nheaderid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ncolumnid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nord"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nformattype"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "iscellonly"
+            },
+            {
+                "nOrd": 7,
+                "sType": "xml",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "xmlcondition"
+            }
+        ]
+    },
+    {
+        "nID": 46,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ncolumnformatid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "npropertiesid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "svalue"
+            }
+        ]
+    },
+    {
+        "nID": 47,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname_ru"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdesc_ru"
+            },
+            {
+                "nOrd": 4,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isactive"
+            },
+            {
+                "nOrd": 5,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "issend"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "1",
+                "sColumnName": "nruletypeid"
+            },
+            {
+                "nOrd": 7,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sobject"
+            },
+            {
+                "nOrd": 8,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sobjectname"
+            },
+            {
+                "nOrd": 9,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sformula"
+            },
+            {
+                "nOrd": 10,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scondition"
+            },
+            {
+                "nOrd": 11,
+                "sType": "numeric",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ftargetvalue"
+            },
+            {
+                "nOrd": 12,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scustomfilter"
+            },
+            {
+                "nOrd": 13,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "issavedetails"
+            },
+            {
+                "nOrd": 14,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nrulegroupid"
+            },
+            {
+                "nOrd": 15,
+                "sType": "numeric",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ftargetdelta"
+            },
+            {
+                "nOrd": 16,
+                "sType": "numeric",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ftargetdeltapct"
+            },
+            {
+                "nOrd": 18,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nbusinessruletypeid"
+            },
+            {
+                "nOrd": 19,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndaybackup"
+            },
+            {
+                "nOrd": 20,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtlastbackup"
+            },
+            {
+                "nOrd": 21,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nmeasureid"
+            },
+            {
+                "nOrd": 22,
+                "sType": "numeric",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ftargetvalue2"
+            },
+            {
+                "nOrd": 23,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isextendedlog"
+            },
+            {
+                "nOrd": 24,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "5",
+                "sColumnName": "nrulepriority"
+            },
+            {
+                "nOrd": 25,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtcreate"
+            },
+            {
+                "nOrd": 26,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtmodify"
+            },
+            {
+                "nOrd": 27,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ncreateuser"
+            },
+            {
+                "nOrd": 28,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nmodifyuser"
+            },
+            {
+                "nOrd": 29,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isdeviationonchange"
+            },
+            {
+                "nOrd": 30,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isreadonlytargets"
+            },
+            {
+                "nOrd": 31,
+                "sType": "xml",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "xwidgetparams"
+            },
+            {
+                "nOrd": 32,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "iswidgetusedeviationdate"
+            },
+            {
+                "nOrd": 33,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nresetdynamic"
+            },
+            {
+                "nOrd": 34,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isprocessnothappen"
+            },
+            {
+                "nOrd": 35,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ishidethreshold"
+            },
+            {
+                "nOrd": 36,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nord"
+            },
+            {
+                "nOrd": 37,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ismultiplestep"
+            },
+            {
+                "nOrd": 38,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isreadonly"
+            },
+            {
+                "nOrd": 39,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isselfalert"
+            },
+            {
+                "nOrd": 40,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nrulegroupsubjectareaid"
+            }
+        ]
+    },
+    {
+        "nID": 48,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nruleid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sparam"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "svalue"
+            }
+        ]
+    },
+    {
+        "nID": 49,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nruleid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nparamid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsourcetypeid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nkpi_id"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndynamictype"
+            },
+            {
+                "nOrd": 7,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nbitmask"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nversionid"
+            },
+            {
+                "nOrd": 9,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ntotaltype"
+            },
+            {
+                "nOrd": 10,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sfunction"
+            },
+            {
+                "nOrd": 11,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndatesfrom"
+            },
+            {
+                "nOrd": 12,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndatesto"
+            },
+            {
+                "nOrd": 13,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nmaxdatesfrom"
+            },
+            {
+                "nOrd": 14,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nmaxdatesto"
+            },
+            {
+                "nOrd": 15,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "iswork"
+            },
+            {
+                "nOrd": 16,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nactualdynamictype"
+            },
+            {
+                "nOrd": 17,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isallavailabledata"
+            },
+            {
+                "nOrd": 18,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nbaseruleid"
+            },
+            {
+                "nOrd": 19,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scustomwhere"
+            },
+            {
+                "nOrd": 20,
+                "sType": "numeric",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "fnullvalue"
+            },
+            {
+                "nOrd": 21,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname_ru"
+            },
+            {
+                "nOrd": 22,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdesc_ru"
+            },
+            {
+                "nOrd": 23,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "data_point_id"
+            },
+            {
+                "nOrd": 24,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "deprt"
+            },
+            {
+                "nOrd": 25,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "svalueexpression"
+            },
+            {
+                "nOrd": 26,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sobject"
+            },
+            {
+                "nOrd": 27,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sobjectname"
+            },
+            {
+                "nOrd": 28,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nusersourceid"
+            },
+            {
+                "nOrd": 29,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdate"
+            },
+            {
+                "nOrd": 30,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "skpi_id"
+            },
+            {
+                "nOrd": 31,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nsourceenvironmentid"
+            },
+            {
+                "nOrd": 32,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ssourcetablename"
+            }
+        ]
+    },
+    {
+        "nID": 50,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nruleid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nhtmltableid"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nhtmltableslibraryid"
+            }
+        ]
+    },
+    {
+        "nID": 51,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nruleid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isactive"
+            },
+            {
+                "nOrd": 4,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isrunonce"
+            },
+            {
+                "nOrd": 5,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdescription"
+            },
+            {
+                "nOrd": 6,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sweeknum"
+            },
+            {
+                "nOrd": 7,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sweekday"
+            },
+            {
+                "nOrd": 8,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "smonth"
+            },
+            {
+                "nOrd": 9,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sday"
+            },
+            {
+                "nOrd": 10,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "shour"
+            },
+            {
+                "nOrd": 11,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sminute"
+            },
+            {
+                "nOrd": 12,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndateshift"
+            },
+            {
+                "nOrd": 13,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndatedynamic"
+            },
+            {
+                "nOrd": 14,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isforcecalc"
+            },
+            {
+                "nOrd": 15,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtnextrun"
+            },
+            {
+                "nOrd": 17,
+                "sType": "timestamp",
+                "isNull": "NO",
+                "sDefault": "LOCALTIMESTAMP",
+                "sColumnName": "dtcreate"
+            },
+            {
+                "nOrd": 18,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nrundays"
+            }
+        ]
+    },
+    {
+        "nID": 52,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nruleid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sobject"
+            },
+            {
+                "nOrd": 4,
+                "sType": "timestamp",
+                "isNull": "NO",
+                "sDefault": "LOCALTIMESTAMP",
+                "sColumnName": "dtcreate"
+            },
+            {
+                "nOrd": 5,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtmodify"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isactive"
+            },
+            {
+                "nOrd": 7,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isspamfilter"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nspamcount"
+            },
+            {
+                "nOrd": 9,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nspamdynamic"
+            },
+            {
+                "nOrd": 10,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "100",
+                "sColumnName": "nmessagelimit"
+            },
+            {
+                "nOrd": 11,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "iscumulative"
+            },
+            {
+                "nOrd": 12,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nmessagettl"
+            }
+        ]
+    },
+    {
+        "nID": 53,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsubscribeid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nchannelid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isactive"
+            },
+            {
+                "nOrd": 5,
+                "sType": "xml",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "xparams"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nprocid"
+            }
+        ]
+    },
+    {
+        "nID": 54,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsubscribeid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nuserid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ngroupid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nchannelid"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isactive"
+            }
+        ]
+    },
+    {
+        "nID": 55,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsubscribeid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsubscribedynamicgroupid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nchannelid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isactive"
+            }
+        ]
+    },
+    {
+        "nID": 56,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nruleid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sparam"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "svalue"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "0",
+                "sColumnName": "nchannelid"
+            }
+        ]
+    },
+    {
+        "nID": 57,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nruleid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nfilterid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sfiltername"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nuserdictionaryid"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "1",
+                "sColumnName": "nviewtype"
+            },
+            {
+                "nOrd": 7,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sfieldname"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nbitmask"
+            },
+            {
+                "nOrd": 9,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sfieldnamesource"
+            },
+            {
+                "nOrd": 10,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scustomwhere"
+            },
+            {
+                "nOrd": 11,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "shint"
+            }
+        ]
+    },
+    {
+        "nID": 58,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname_ru"
+            }
+        ]
+    },
+    {
+        "nID": 59,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsubscribedynamicgroupid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nuserid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sobject"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "1",
+                "sColumnName": "nstatus"
+            }
+        ]
+    },
+    {
+        "nID": 60,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sdescription"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sprocname"
+            },
+            {
+                "nOrd": 5,
+                "sType": "xml",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "xparams"
+            }
+        ]
+    },
+    {
+        "nID": 61,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "uuid",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "uuid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 4,
+                "sType": "bytea",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "binpdf"
+            },
+            {
+                "nOrd": 5,
+                "sType": "bytea",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "binsvg"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ismenu"
+            },
+            {
+                "nOrd": 7,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isdashboard"
+            },
+            {
+                "nOrd": 8,
+                "sType": "timestamp",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "dtuploaddate"
+            },
+            {
+                "nOrd": 9,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nuserid"
+            }
+        ]
+    },
+    {
+        "nID": 63,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": "(1000 + ((random() * (1000000)::double precision))::bigint)",
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "svalue"
+            }
+        ]
+    },
+    {
+        "nID": 70,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "salias"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdescription"
+            },
+            {
+                "nOrd": 7,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isai"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nconnectionid"
+            }
+        ]
+    },
+    {
+        "nID": 71,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndatamodel"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nsourceid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ntype"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isactive"
+            },
+            {
+                "nOrd": 8,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": "false",
+                "sColumnName": "isroot"
+            }
+        ]
+    },
+    {
+        "nID": 72,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndatamodelsource"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ssourcecolumnname"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scolumnname"
+            },
+            {
+                "nOrd": 5,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scolumnnamedescription"
+            },
+            {
+                "nOrd": 6,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "soperation"
+            },
+            {
+                "nOrd": 7,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ntype"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nord"
+            },
+            {
+                "nOrd": 9,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isactive"
+            },
+            {
+                "nOrd": 11,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": "2",
+                "sColumnName": "ncolumndatatype"
+            },
+            {
+                "nOrd": 12,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isai"
+            },
+            {
+                "nOrd": 15,
+                "sType": "_int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndependentscolumn"
+            },
+            {
+                "nOrd": 16,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nformulalevel"
+            },
+            {
+                "nOrd": 17,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": "1",
+                "sColumnName": "ncolumnoperationtypes"
+            },
+            {
+                "nOrd": 19,
+                "sType": "json",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "jformat"
+            }
+        ]
+    },
+    {
+        "nID": 73,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndatamodel"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ntype"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nparent"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nsourceid"
+            },
+            {
+                "nOrd": 7,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": "false",
+                "sColumnName": "isoptional"
+            }
+        ]
+    },
+    {
+        "nID": 74,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndatamodellink"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nleftid"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nrightid"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": "1",
+                "sColumnName": "ntype"
+            }
+        ]
+    },
+    {
+        "nID": 75,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndatamodel"
+            },
+            {
+                "nOrd": 3,
+                "sType": "text",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sfiltername"
+            },
+            {
+                "nOrd": 4,
+                "sType": "text",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sfilter"
+            },
+            {
+                "nOrd": 5,
+                "sType": "text",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sdescription"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isactive"
+            }
+        ]
+    },
+    {
+        "nID": 76,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndatamodel"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ncolumn"
+            },
+            {
+                "nOrd": 4,
+                "sType": "text",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sdescription"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ncondition"
+            },
+            {
+                "nOrd": 7,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isactive"
+            },
+            {
+                "nOrd": 8,
+                "sType": "_jsonb",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "jconditions"
+            }
+        ]
+    },
+    {
+        "nID": 77,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nrlsid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nobjecttype"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nobjectid"
+            }
+        ]
+    },
+    {
+        "nID": 80,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nuserownerid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtcreate"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ncurrentstate"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "3",
+                "sColumnName": "npriorityid"
+            }
+        ]
+    },
+    {
+        "nID": 81,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "njobid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isenable"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nord"
+            },
+            {
+                "nOrd": 5,
+                "sType": "xml",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "xcommand"
+            },
+            {
+                "nOrd": 6,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scommandtype"
+            },
+            {
+                "nOrd": 7,
+                "sType": "json",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "jcommand"
+            },
+            {
+                "nOrd": 8,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 9,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isautoname"
+            }
+        ]
+    },
+    {
+        "nID": 82,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "njobid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isenable"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nprevstepord"
+            },
+            {
+                "nOrd": 5,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sscript"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nord"
+            },
+            {
+                "nOrd": 7,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 8,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isautoname"
+            }
+        ]
+    },
+    {
+        "nID": 83,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "njobconditionid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sresult"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sstepto"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsteporderto"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nord"
+            }
+        ]
+    },
+    {
+        "nID": 84,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "njobid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtstart"
+            },
+            {
+                "nOrd": 4,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtend"
+            },
+            {
+                "nOrd": 5,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isrecursive"
+            },
+            {
+                "nOrd": 6,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nactuationtype"
+            },
+            {
+                "nOrd": 7,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nactuationfreq"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nactuationday"
+            },
+            {
+                "nOrd": 9,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isfrequency"
+            },
+            {
+                "nOrd": 10,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nfrequencytype"
+            },
+            {
+                "nOrd": 11,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nfrequency"
+            },
+            {
+                "nOrd": 12,
+                "sType": "time",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dttimestart"
+            },
+            {
+                "nOrd": 13,
+                "sType": "time",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dttimeend"
+            },
+            {
+                "nOrd": 14,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sselectedtime"
+            },
+            {
+                "nOrd": 15,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "isenable"
+            },
+            {
+                "nOrd": 16,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtlaststart"
+            },
+            {
+                "nOrd": 17,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ssummarytext"
+            }
+        ]
+    },
+    {
+        "nID": 85,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "njobid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsubjectareaid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "npermissionid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "ismainsa"
+            }
+        ]
+    },
+    {
+        "nID": 86,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "neventid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "njobid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isenable"
+            },
+            {
+                "nOrd": 5,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtstart"
+            },
+            {
+                "nOrd": 6,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtend"
+            },
+            {
+                "nOrd": 7,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scondition"
+            },
+            {
+                "nOrd": 8,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "2",
+                "sColumnName": "nactivatetype"
+            },
+            {
+                "nOrd": 9,
+                "sType": "timestamp",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "dtlaststart"
+            },
+            {
+                "nOrd": 10,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ssummarytext"
+            },
+            {
+                "nOrd": 11,
+                "sType": "xml",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "xstructure"
+            },
+            {
+                "nOrd": 12,
+                "sType": "json",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "jstructure"
+            }
+        ]
+    },
+    {
+        "nID": 100,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsubjectareaid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndatamodelid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "npermissionid"
+            },
+            {
+                "nOrd": 5,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ismainsa"
+            }
+        ]
+    },
+    {
+        "nID": 121,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nusersourceid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sscript"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "npriority"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isavailable"
+            },
+            {
+                "nOrd": 7,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sstrategy"
+            },
+            {
+                "nOrd": 8,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "scolumns"
+            },
+            {
+                "nOrd": 9,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "smatched"
+            },
+            {
+                "nOrd": 10,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "snotmatched"
+            }
+        ]
+    },
+    {
+        "nID": 201,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "varchar",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "sname_ru"
+            },
+            {
+                "nOrd": 4,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sname_en"
+            },
+            {
+                "nOrd": 7,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sshortname_ru"
+            },
+            {
+                "nOrd": 8,
+                "sType": "varchar",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "sshortname_en"
+            },
+            {
+                "nOrd": 11,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "norder"
+            },
+            {
+                "nOrd": 12,
+                "sType": "int2",
+                "isNull": "NO",
+                "sDefault": "3",
+                "sColumnName": "ndisplaystateid"
+            },
+            {
+                "nOrd": 14,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nownerid"
+            },
+            {
+                "nOrd": 15,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": "3",
+                "sColumnName": "nshardid"
+            }
+        ]
+    },
+    {
+        "nID": 202,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nsubjectareaid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "ndashboardid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndashboardord"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int4",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ndashboardgroupid"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "true",
+                "sColumnName": "isenabledqc"
+            },
+            {
+                "nOrd": 7,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "npermissionid"
+            },
+            {
+                "nOrd": 8,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "ismainsa"
+            },
+            {
+                "nOrd": 9,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "npositionid"
+            }
+        ]
+    },
+    {
+        "nID": 203,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nuserid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nsubjectareaid"
+            },
+            {
+                "nOrd": 8,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "isowner"
+            },
+            {
+                "nOrd": 9,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ismanual"
+            },
+            {
+                "nOrd": 10,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isauto"
+            },
+            {
+                "nOrd": 11,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": "false",
+                "sColumnName": "ismanualglobalroleaccess"
+            },
+            {
+                "nOrd": 12,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": "false",
+                "sColumnName": "isautoglobalroleaccess"
+            }
+        ]
+    },
+    {
+        "nID": 204,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nusersubjectareaid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nenvironmentid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ismanual"
+            },
+            {
+                "nOrd": 4,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isauto"
+            }
+        ]
+    },
+    {
+        "nID": 205,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nusersubjectareaid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nroleid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "ismanual"
+            },
+            {
+                "nOrd": 4,
+                "sType": "bool",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "isauto"
+            }
+        ]
+    },
+    {
+        "nID": 262,
+        "jStructure": [
+            {
+                "nOrd": 1,
+                "sType": "int4",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nid"
+            },
+            {
+                "nOrd": 2,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "nsubjectareaid"
+            },
+            {
+                "nOrd": 3,
+                "sType": "int8",
+                "isNull": "NO",
+                "sDefault": null,
+                "sColumnName": "nreportid"
+            },
+            {
+                "nOrd": 4,
+                "sType": "int2",
+                "isNull": "YES",
+                "sDefault": "0",
+                "sColumnName": "iscanupdate"
+            },
+            {
+                "nOrd": 5,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "npermissionid"
+            },
+            {
+                "nOrd": 6,
+                "sType": "bool",
+                "isNull": "NO",
+                "sDefault": "false",
+                "sColumnName": "ismainsa"
+            },
+            {
+                "nOrd": 7,
+                "sType": "int8",
+                "isNull": "YES",
+                "sDefault": null,
+                "sColumnName": "npositionid"
+            }
+        ]
+    }
+]

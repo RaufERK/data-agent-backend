@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.venv
+__pycache__
+**/__pycache__
+*.pyc
+*.log
+uploads
+eval_results
+tmp_eval_cases
+artifacts
+.DS_Store
+pip.conf
+uv.toml
