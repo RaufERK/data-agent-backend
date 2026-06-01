@@ -1,6 +1,7 @@
 FROM python:3.12-slim
 
 ARG PIP_INDEX_URL
+ARG PIP_TRUSTED_HOST=sberworks.ru
 
 WORKDIR /app
 
@@ -13,7 +14,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY backend/requirements.txt ./
 RUN test -n "${PIP_INDEX_URL}" \
-    && pip install --no-cache-dir --index-url "${PIP_INDEX_URL}" -r requirements.txt \
+    && mkdir -p /etc/pip \
+    && printf "[global]\nindex-url=%s\ntrusted-host=%s\ndefault-timeout=120\n" "${PIP_INDEX_URL}" "${PIP_TRUSTED_HOST}" > /etc/pip.conf \
+    && pip install --no-cache-dir -r requirements.txt \
+    && rm -f /etc/pip.conf \
     && playwright install chromium --with-deps
 
 COPY backend ./backend
