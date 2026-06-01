@@ -72,6 +72,3 @@ docker build -t data-agent-backend .
 ```
 
 В Docker backend не зависит от frontend `dist`; frontend раздается отдельным nginx-контейнером.
-
-
-----
