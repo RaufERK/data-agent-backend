@@ -66,9 +66,10 @@ def _oidc_meta() -> dict:
     global _oidc_meta_cache
     if _oidc_meta_cache:
         return _oidc_meta_cache
-    issuer = get_settings().oidc_issuer.rstrip("/")
+    settings = get_settings()
+    issuer = settings.oidc_issuer.rstrip("/")
     url = f"{issuer}/.well-known/openid-configuration"
-    resp = httpx.get(url, timeout=10, verify=False)
+    resp = httpx.get(url, timeout=10, verify=settings.oidc_verify_ssl)
     resp.raise_for_status()
     _oidc_meta_cache = resp.json()
     return _oidc_meta_cache
@@ -86,18 +87,19 @@ def _fetch_token(code: str, redirect_uri: str) -> dict:
             "client_secret": s.oidc_secret,
         },
         timeout=15,
-        verify=False,
+        verify=s.oidc_verify_ssl,
     )
     resp.raise_for_status()
     return resp.json()
 
 
 def _fetch_userinfo(access_token: str) -> dict:
+    settings = get_settings()
     resp = httpx.get(
         _oidc_meta()["userinfo_endpoint"],
         headers={"Authorization": f"Bearer {access_token}"},
         timeout=10,
-        verify=False,
+        verify=settings.oidc_verify_ssl,
     )
     resp.raise_for_status()
     return resp.json()

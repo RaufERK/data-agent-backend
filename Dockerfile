@@ -1,6 +1,6 @@
 FROM python:3.12-slim
 
-ARG PIP_INDEX_URL=https://pypi.org/simple
+ARG PIP_INDEX_URL
 
 WORKDIR /app
 
@@ -12,7 +12,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 COPY backend/requirements.txt ./
-RUN pip install --no-cache-dir --index-url "${PIP_INDEX_URL}" -r requirements.txt \
+RUN test -n "${PIP_INDEX_URL}" \
+    && pip install --no-cache-dir --index-url "${PIP_INDEX_URL}" -r requirements.txt \
     && playwright install chromium --with-deps
 
 COPY backend ./backend

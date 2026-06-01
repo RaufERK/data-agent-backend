@@ -10,6 +10,8 @@ uploads
 eval_results
 tmp_eval_cases
 artifacts
+sbom_*.json
 .DS_Store
 pip.conf
 uv.toml
+reports/

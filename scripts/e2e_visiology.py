@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -249,7 +250,14 @@ def run(backend: str) -> None:
     log("8. Скриншот дашборда в Visiology...")
     visiology_shot = OUT / "screenshot_visiology.png"
     if dashboard_url:
-        login_args = ("https://demo.visiology.su/v3/", "user", "Visiology3User")
+        visiology_base_url = os.getenv("VISIOLOGY_PUBLIC_BASE_URL", "https://demo.visiology.su/v3/")
+        visiology_username = os.getenv("VISIOLOGY_USERNAME", "")
+        visiology_password = os.getenv("VISIOLOGY_PASSWORD", "")
+        login_args = (
+            visiology_base_url,
+            visiology_username,
+            visiology_password,
+        ) if visiology_username and visiology_password else None
         screenshot(dashboard_url, visiology_shot, wait_ms=6000, login=login_args)
     else:
         log("   dashboard_url пустой — пропускаю")
